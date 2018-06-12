@@ -10,7 +10,7 @@ Detailed documentation: https://docs.djangoproject.com/en/2.0/
 Clone this repo and build your package with python setup.py sdist. This creates a directory called dist and builds your new package, django-polls-0.1.tar.gz.
 
 To install the package:
-pip install --user django-polls/dist/django-polls-0.1.tar.gz
+pip install --user dist/django-polls-0.1.tar.gz
 
 Quick start
 -----------
