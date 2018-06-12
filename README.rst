@@ -5,7 +5,12 @@ Polls
 Polls is a simple Django app to conduct Web-based polls. For each
 question, visitors can choose between a fixed number of answers.
 
-Detailed documentation is in the "docs" directory.
+Detailed documentation: https://docs.djangoproject.com/en/2.0/
+
+Clone this repo and build your package with python setup.py sdist. This creates a directory called dist and builds your new package, django-polls-0.1.tar.gz.
+
+To install the package:
+pip install --user django-polls/dist/django-polls-0.1.tar.gz
 
 Quick start
 -----------
